@@ -12,6 +12,7 @@ var PizzaBakeResult = {
   BURNT: 3,
   ON_FIRE: 4
 };
+
 var crustSelectEl = document.getElementById('crust-type');
 var toppingsEls = document.querySelectorAll('[name=toppings]');
 var ovenTempEl = document.getElementById('oven-temperature');
